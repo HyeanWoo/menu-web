@@ -1,0 +1,17 @@
+#admin-menuinfo {
+    display: none;
+    height: 100%;
+    &:target {
+        display: flex;
+    }
+}
+.admin-menuinfo-box {
+    border-radius: 15px;
+    box-shadow: 0 0 5px gray;
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+}
+.admin-menuinfo-list:not(:first-child) {
+    margin-top: 20px;
+}

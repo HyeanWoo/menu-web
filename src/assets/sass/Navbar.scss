@@ -1,0 +1,34 @@
+.header-wrapper {
+    height: 90px;
+    width: 100%;
+    transition: visibility 0s linear 300ms;
+}
+.header-flex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 15px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.left, .right {
+    display: flex;
+}
+.logo {
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+    // font-family: 'Monofett', cursive;
+    font-family: 'Sniglet', cursive;
+}
+.login, .signin {
+    color: white;
+    font-family: 'Mina', sans-serif;
+}
+.login {
+    &:hover {
+        cursor: pointer;
+        text-decoration: none;
+        color: #ffffffbe !important;
+    }
+}
